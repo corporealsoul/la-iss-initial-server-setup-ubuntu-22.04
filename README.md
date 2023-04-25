@@ -112,6 +112,8 @@
 
 **Load,** `anup@ubuntu-22041:~$ htop`
 
+**Drive,** `anup@ubuntu-22041:~$ df -h`
+
 <br>
 
 ### Processes,
@@ -165,6 +167,12 @@
 `anup@ubuntu-22041:~$ sudo apt-get install htop`
 
 `anup@ubuntu-22041:~$ sudo apt-get install multitail`
+
+<br>
+
+### Logs,
+
+`anup@ubuntu-22041:~$ ls -ltr /var/log`
 
 <br>
 
