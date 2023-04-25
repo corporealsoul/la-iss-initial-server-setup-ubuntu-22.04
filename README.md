@@ -52,9 +52,9 @@
     network: {config: disabled}
 
 
-`anup@ubuntu-22041:~$ sudo cp /etc/netplan/00-installer-config.yaml /etc/netplan/00-installer-config.yaml.backup`
+`anup@ubuntu-22041:~$ sudo cp /etc/netplan/01-network-manager-all.yaml /etc/netplan/01-network-manager-all.yaml.backup`
 
-`anup@ubuntu-22041:~$ sudo nano /etc/netplan/00-installer-config.yaml`
+`anup@ubuntu-22041:~$ sudo nano /etc/netplan/01-network-manager-all.yaml`
 
     # This is the network config written by 'subiquity'
     network:
