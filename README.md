@@ -99,7 +99,13 @@
 
 `anup@ubuntu-22041:~$ usermod -aG sudo ubuntu-user`
 
+anup@ubuntu-22041:~$ sudo apt install finger
+
 `anup@ubuntu-22041:~$ finger ubuntu-user`
+
+anup@ubuntu-22041:~$ sudo su ubuntu-user
+
+
 
 <br>
 
