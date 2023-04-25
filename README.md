@@ -131,6 +131,8 @@ anup@ubuntu-22041:~$ sudo su ubuntu-user
 
 `anup@ubuntu-22041:~$ ps -aux`
 
+sudo apt install htop
+
 `anup@ubuntu-22041:~$ htop`
 
 <br>
