@@ -47,11 +47,6 @@
 
 ### Configure static IP,
 
-`anup@ubuntu-22041:~$ sudo nano /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg`
-
-    network: {config: disabled}
-
-
 `anup@ubuntu-22041:~$ sudo cp /etc/netplan/01-network-manager-all.yaml /etc/netplan/01-network-manager-all.yaml.backup`
 
 `anup@ubuntu-22041:~$ sudo nano /etc/netplan/01-network-manager-all.yaml`
@@ -99,11 +94,11 @@
 
 `anup@ubuntu-22041:~$ usermod -aG sudo ubuntu-user`
 
-anup@ubuntu-22041:~$ sudo apt install finger
+`anup@ubuntu-22041:~$ sudo apt install finger`
 
 `anup@ubuntu-22041:~$ finger ubuntu-user`
 
-anup@ubuntu-22041:~$ sudo su ubuntu-user
+`anup@ubuntu-22041:~$ sudo su ubuntu-user`
 
 
 
@@ -189,8 +184,28 @@ sudo apt install htop
 
 <br>
 
-### List of repos,
+### List of software repos,
 
 `anup@ubuntu-22041:~$ cat /etc/apt/sources.list`
+
+<br>
+
+### Software details,
+
+`anup@ubuntu-22041:~$ apt list`
+
+`anup@ubuntu-22041:~$ apt list --installed`
+
+`anup@ubuntu-22041:~$ apt list --upgradeable`
+
+`anup@ubuntu-22041:~$ apt list apache2`
+
+`anup@ubuntu-22041:~$ apt list | grep nginx`
+
+<br>
+
+`anup@ubuntu-22041:~$ dpkg --list`
+
+`anup@ubuntu-22041:~$ dpkg --list | grep nginx`
 
 <br>
