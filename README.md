@@ -2,6 +2,11 @@
 
 `anup@ubuntu-22041:~$ sudo apt-get install net-tools`
 
+`anup@ubuntu-22041:~$ sudo apt-get install openssh-server`
+
+`anup@ubuntu-22041:~$ sudo apt-get install openssh-client`
+
+
 `anup@ubuntu-22041:~$ ifconfig`
 
 <br>
