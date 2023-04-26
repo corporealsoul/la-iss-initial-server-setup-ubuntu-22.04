@@ -9,6 +9,8 @@
 
 `anup@ubuntu-22041:~$ ifconfig`
 
+`PS C:\Users\uniqs> ssh anup@192.168.56.101`
+
 <br>
 
 ### Platform,
